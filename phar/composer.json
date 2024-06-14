@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "symfony/filesystem": "^7.1",
-        "symfony/finder": "^7.1"
+        "symfony/finder": "^7.1",
+        "symfony/process": "^7.1"
     },
     "autoload": {
         "psr-4": {
