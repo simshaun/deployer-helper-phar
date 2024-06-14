@@ -1,0 +1,20 @@
+{
+    "name": "shaun/deployer-helper",
+    "description": "Provides an autoloader that may be used in a Deployer script.",
+    "type": "library",
+    "require": {
+        "symfony/filesystem": "^7.1",
+        "symfony/finder": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeployerHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shaun",
+            "email": "gh@simshaun.com"
+        }
+    ]
+}
